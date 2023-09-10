@@ -61,22 +61,17 @@
     <Compile Include="Assets\Easy Character Movement 2\Source\Characters\FirstPersonCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Interfaces\IColliderFilter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Components\CharacterLook.cs" />
-    <Compile Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\Common\Extensions.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Helpers\RootMotionController.cs" />
-    <Compile Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\Utils\MeshUtility.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Components\PhysicsVolume.cs" />
-    <Compile Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\Components\SlopeLimitBehavior.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Controllers\ThirdPersonCameraController.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Characters\AgentCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Characters\Character.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Characters\ThirdPersonCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Common\MathLib.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Source\Common\CollisionDetection.cs" />
-    <Compile Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\Components\CharacterMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Easy Character Movement 2\Source\EasyCharacterMovement.Characters.asmdef" />
-    <None Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\EasyCharacterMovement.CharacterMovement.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

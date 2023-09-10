@@ -939,6 +939,10 @@
       <Project>{03062CE1-476F-5629-16AC-2157A43B1EFC}</Project>
       <Name>Unity.Recorder</Name>
     </ProjectReference>
+    <ProjectReference Include="EasyCharacterMovement.Characters.csproj">
+      <Project>{7BCC7F12-9E8D-138D-B67C-5FD6D3475B74}</Project>
+      <Name>EasyCharacterMovement.Characters</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{22468C98-B5AD-C4CF-65FF-C51F38540835}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -966,6 +970,10 @@
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
       <Project>{DC7D9009-FADF-0E10-EBC3-DAC99397921F}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="EasyCharacterMovement.CharacterMovement.csproj">
+      <Project>{F0D11DCA-EE46-AD85-E5E1-61311D846664}</Project>
+      <Name>EasyCharacterMovement.CharacterMovement</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
       <Project>{88EC472F-EBED-2AA9-6DB9-11CE84AC0BBC}</Project>

@@ -66,14 +66,11 @@
     <Compile Include="Assets\Easy Character Movement 2\Examples\1.- Input\1.4.- Old Input Examples\1.4.2 Side Scroller\Scripts\MyCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.5.- Dash\Scripts\MyCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\8.- Custom Simulation\Scripts\ISimulatable.cs" />
-    <Compile Include="Assets\Scripts\Source\Components\CharacterLook.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.8.- Swim\Scripts\MyFirstPersonCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\Scripts\Source\Controllers\ThirdPersonCameraController.cs" />
     <Compile Include="Assets\Scripts\MenuActions.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\4.- Platforms\4.1.- Scripted Platform\Scripts\KinematicMove.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.13.- Planet Walk\Scripts\MyCameraController.cs" />
-    <Compile Include="Assets\Scripts\Source\Helpers\RootMotionController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Templates\Top Down\Scripts\Characters\MyCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -82,29 +79,25 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Demo\Scripts\ApplyLandingForce.cs" />
-    <Compile Include="Assets\Scripts\EnemyNavMesh.cs" />
     <Compile Include="Assets\Scripts\PlayerStamina.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\3.- Events\3.1.- Character Events\Scripts\MyCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\Scripts\Source\Components\CharacterMovement\Utils\MeshUtility.cs" />
-    <Compile Include="Assets\Scripts\Source\Interfaces\IColliderFilter.cs" />
+    <Compile Include="Assets\Scripts\PlayerNevMech.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.4.- Bouncer\Scripts\Bouncer.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\8.- Custom Simulation\Scripts\SimulationManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Shared Assets\Scripts\AutoSimulationEnabler.cs" />
-    <Compile Include="Assets\Scripts\Source\Components\CharacterMovement\Components\SlopeLimitBehavior.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.3.- Twin-Stick Movement\Scripts\TwinStickCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Templates\Third Person\Scripts\Characters\MyCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.9.- Slope Speed Modifier\Scripts\MyCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Templates\Side Scroller\Scripts\Characters\MyCharacter.cs" />
-    <Compile Include="Assets\Scripts\Source\Components\CharacterMovement\Common\Extensions.cs" />
-    <Compile Include="Assets\Scripts\Source\Components\PhysicsVolume.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\2.- Animation\2.3.- Root Motion Toggle\Scripts\UnityCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Templates\First Person\Scripts\Characters\MyCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\EnemyNevMesh.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.6.- Slide\Scripts\SlidingCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\EnemyAttack.cs" />
@@ -113,7 +106,6 @@
     <Compile Include="Assets\Easy Character Movement 2\Demo\Scripts\DemoController.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\4.- Platforms\4.3.- One-Way Platform\Scripts\OneWayPlatform.cs" />
     <Compile Include="Assets\UMotionExamples\Miscellaneous\Scripts\ResetPosition.cs" />
-    <Compile Include="Assets\Scripts\PlayerNavMesh.cs" />
     <Compile Include="Assets\Scripts\FlashLight.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\1.- Input\1.3.- PlayerInput Character Controller\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.10.- Fall Damage\Scripts\MyCharacter.cs" />
@@ -123,28 +115,23 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\playerLight.cs" />
-    <Compile Include="Assets\Scripts\Source\Common\CollisionDetection.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\1.- Input\1.4.- Old Input Examples\1.4.3 Third Person\Scripts\MyCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.13.- Planet Walk\Scripts\MyCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\8.- Custom Simulation\Scripts\MySimulatedCharacter.cs" />
-    <Compile Include="Assets\Scripts\Source\Common\MathLib.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Scripts\TimeScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.11.- Teleporter\Scripts\Teleporter.cs" />
-    <Compile Include="Assets\Scripts\Source\Characters\FirstPersonCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\1.- Input\1.4.- Old Input Examples\1.4.4 Top Down\Scripts\MyCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\1.- Input\1.4.- Old Input Examples\1.4.1 First Person\Scripts\MyCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\Scripts\Source\Characters\ThirdPersonCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\1.- Input\1.2.- Custom Input Actions\Scripts\MyCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.14.- Ladders\Scripts\MyCharacter.cs" />
-    <Compile Include="Assets\Scripts\Source\Components\CharacterMovement\Components\CharacterMovement.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\5.- Gameplay\5.7.- Fly\Scripts\MyFirstPersonCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\1.- Input\1.5.- Custom Deadzone\Scripts\MyCharacter.cs" />
@@ -159,9 +146,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scripts\VideoWait.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\2.- Animation\2.1.- Character Animator\Scripts\UnityCharacterAnimator.cs" />
-    <Compile Include="Assets\Scripts\Source\Characters\AgentCharacter.cs" />
     <Compile Include="Assets\Easy Character Movement 2\Examples\8.- Custom Simulation\Scripts\SimulatablePlatform.cs" />
-    <Compile Include="Assets\Scripts\Source\Characters\Character.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -192,7 +177,7 @@
     <None Include="Assets\SimpleSky\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Art\Confetti FX\Readme.txt" />
+    <None Include="Assets\Art\FX\Confetti FX\Readme.txt" />
     <None Include="Assets\UMotionEditor\Shaders\VertexColorUnlit.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\UMotionEditor\Shaders\ColorUnlit.shader" />
@@ -811,9 +796,17 @@
       <Project>{1E6A37B7-B366-9712-F4A8-30D96A1BDA1D}</Project>
       <Name>Unity.Recorder.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="EasyCharacterMovement.Characters.Player.csproj">
+      <Project>{F8B0B47B-3C66-DE7D-FD7B-8B1B20B87A95}</Project>
+      <Name>EasyCharacterMovement.Characters.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
       <Project>{CFCBBCB8-6532-C175-2E2F-61CB0755B97E}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="EasyCharacterMovement.CharacterMovement.Player.csproj">
+      <Project>{CC4C3BA5-DE0A-B68C-E20D-FDAF3EE6C03F}</Project>
+      <Name>EasyCharacterMovement.CharacterMovement.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.Player.csproj">
       <Project>{F2A3EF8B-AED5-DF9D-8243-453E0AE4C9D4}</Project>

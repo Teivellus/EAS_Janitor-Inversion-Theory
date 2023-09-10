@@ -58,13 +58,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CharacterMovement\Source\Components\CharacterMovement\Common\Extensions.cs" />
-    <Compile Include="Assets\CharacterMovement\Source\Components\CharacterMovement\Utils\MeshUtility.cs" />
-    <Compile Include="Assets\CharacterMovement\Source\Components\CharacterMovement\Components\SlopeLimitBehavior.cs" />
-    <Compile Include="Assets\CharacterMovement\Source\Components\CharacterMovement\Components\CharacterMovement.cs" />
+    <Compile Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\Common\Extensions.cs" />
+    <Compile Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\Utils\MeshUtility.cs" />
+    <Compile Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\Components\SlopeLimitBehavior.cs" />
+    <Compile Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\Components\CharacterMovement.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\CharacterMovement\Source\Components\CharacterMovement\EasyCharacterMovement.CharacterMovement.asmdef" />
+    <None Include="Assets\Easy Character Movement 2\Source\Components\CharacterMovement\EasyCharacterMovement.CharacterMovement.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
