@@ -1,0 +1,272 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.17f1 (54cb9bda89c4) revision 5557147'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32721 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity Projects/EAS_V2
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61116
+Successfully changed project path to: D:/Unity Projects/EAS_V2
+D:/Unity Projects/EAS_V2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19348] Host "[IP] 192.168.1.125 [Port] 0 [Flags] 2 [Guid] 3292787687 [EditorId] 3292787687 [Version] 1048832 [Id] WindowsEditor(7,Jhaydun-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19348] Host "[IP] 192.168.1.125 [Port] 0 [Flags] 2 [Guid] 3292787687 [EditorId] 3292787687 [Version] 1048832 [Id] WindowsEditor(7,Jhaydun-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 15.33 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.17f1 (54cb9bda89c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/EAS_V2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11120 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018693 seconds.
+- Loaded All Assemblies, in  0.771 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (491ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (241ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+				TypeCache.Initialize (263ms)
+					TypeCache.ScanAssembly (260ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\EAS_V2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\EAS_V2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.933 seconds
+Refreshing native plugins compatible for Editor in 9.07 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.285 seconds
+Domain Reload Profiling:
+	ReloadAssembly (746ms)
+		BeginReloadAssembly (458ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (45ms)
+		LoadAllAssembliesAndSetupDomain (1182ms)
+			LoadAssemblies (777ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (649ms)
+				TypeCache.Initialize (561ms)
+					TypeCache.ScanAssembly (553ms)
+				ResolveRequiredComponents (27ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (930ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (630ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 8.36 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (2.0 MB). Loaded Objects now: 6596.
+Memory consumption went from 325.1 MB to 323.1 MB.
+Total: 6.196500 ms (FindLiveObjects: 0.590200 ms CreateObjectMapping: 0.535400 ms MarkObjects: 4.304000 ms  DeleteObjects: 0.765400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 626191.661931 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Industrial_01.fbx
+  artifactKey: Guid(3b67aa7535c60b947a2a4b9ab35fef7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Industrial_01.fbx using Guid(3b67aa7535c60b947a2a4b9ab35fef7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ebb07eb6a910e9fbf0c638a4f3111f') in 0.221531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.001613 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Towel_01.fbx
+  artifactKey: Guid(ecbb57fac99ac104fb358d85b4eea41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Towel_01.fbx using Guid(ecbb57fac99ac104fb358d85b4eea41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48373337b0769f8c7c8ac3adcd31588e') in 0.033088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Skateboard_01.fbx
+  artifactKey: Guid(f76865c9c8bcd61478bf59d30d53ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Skateboard_01.fbx using Guid(f76865c9c8bcd61478bf59d30d53ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13dfe6af16ea233f70a2c898969a8d1') in 0.111984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pineapple_Whole_01.fbx
+  artifactKey: Guid(c696eaffc0e8b4e418d2ec00e8c4a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pineapple_Whole_01.fbx using Guid(c696eaffc0e8b4e418d2ec00e8c4a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487f75e87d4f7d7435fbbb86238e25e0') in 0.029063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/Art/Models/Shops/SM_Wep_Hunting_Knife_05.fbx
+  artifactKey: Guid(6df1644f744a19f4c8a32fee27b8be8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Wep_Hunting_Knife_05.fbx using Guid(6df1644f744a19f4c8a32fee27b8be8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361e664d6d55d7047ac0ea28ce777094') in 0.026764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_39.fbx
+  artifactKey: Guid(6915549806ddbd7468e843f4e4947790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_39.fbx using Guid(6915549806ddbd7468e843f4e4947790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21df381cc632cb1ffd9407806d2ca012') in 0.015734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Saucer_02.fbx
+  artifactKey: Guid(eb29db2fd5ad8804d86379b89fa6244f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Saucer_02.fbx using Guid(eb29db2fd5ad8804d86379b89fa6244f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c5e6d6a1d22551249990c468923fb3') in 0.011943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Roll_01.fbx
+  artifactKey: Guid(e32f633bcfef7d44a9fc72bf74d5bb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Roll_01.fbx using Guid(e32f633bcfef7d44a9fc72bf74d5bb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173658476af287c766ed05b11f57c0e9') in 0.012477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Shrimp_Tray_01.fbx
+  artifactKey: Guid(eb2c7d4a046ee4643a284356674b86d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Shrimp_Tray_01.fbx using Guid(eb2c7d4a046ee4643a284356674b86d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072a831075153cd00966c830efcc9b3e') in 0.011132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_35.fbx
+  artifactKey: Guid(40b2b80a2145de941ab946e8ec915700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_35.fbx using Guid(40b2b80a2145de941ab946e8ec915700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daaa9923ef9c998e2269f4c172aa2250') in 0.017038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Cooked_06.fbx
+  artifactKey: Guid(3beb0d0f930011d4990d56f173d08ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Cooked_06.fbx using Guid(3beb0d0f930011d4990d56f173d08ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601ac10de71b844f9c5c56ceba954edc') in 0.015413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Warehouse_Platform_Trolley_01.fbx
+  artifactKey: Guid(337d260b7bea7de45980110d41d2de1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Warehouse_Platform_Trolley_01.fbx using Guid(337d260b7bea7de45980110d41d2de1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b38a7c30141058b7f2e5c18f49de2b5') in 0.013051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Sports_Female_01.fbx
+  artifactKey: Guid(e1eea78ee5411ba41983f3b3ee5684aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Sports_Female_01.fbx using Guid(e1eea78ee5411ba41983f3b3ee5684aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b54bbafce133681001fd3da3caaefd2') in 0.554490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
