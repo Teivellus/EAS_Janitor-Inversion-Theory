@@ -15,7 +15,7 @@ D:/Unity Projects/EAS_V2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53578
+61116
 Successfully changed project path to: D:/Unity Projects/EAS_V2
 D:/Unity Projects/EAS_V2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Unity Projects/EAS_V2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42040] Host "[IP] 192.168.1.125 [Port] 0 [Flags] 2 [Guid] 2441282775 [EditorId] 2441282775 [Version] 1048832 [Id] WindowsEditor(7,Jhaydun-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [46736] Host "[IP] 192.168.1.125 [Port] 0 [Flags] 2 [Guid] 4201350878 [EditorId] 4201350878 [Version] 1048832 [Id] WindowsEditor(7,Jhaydun-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [42040] Host "[IP] 192.168.1.125 [Port] 0 [Flags] 2 [Guid] 2441282775 [EditorId] 2441282775 [Version] 1048832 [Id] WindowsEditor(7,Jhaydun-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [46736] Host "[IP] 192.168.1.125 [Port] 0 [Flags] 2 [Guid] 4201350878 [EditorId] 4201350878 [Version] 1048832 [Id] WindowsEditor(7,Jhaydun-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 15.27 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 16.29 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.17f1 (54cb9bda89c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011589 seconds.
-- Loaded All Assemblies, in  0.417 seconds
+Registered in 0.031780 seconds.
+- Loaded All Assemblies, in  0.796 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.335 seconds
+- Finished resetting the current domain, in  0.688 seconds
 Domain Reload Profiling:
-	ReloadAssembly (250ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (492ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (114ms)
+			LoadAssemblies (173ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (157ms)
-				TypeCache.Initialize (155ms)
-					TypeCache.ScanAssembly (153ms)
+			SetupTypeCache (280ms)
+				TypeCache.Initialize (278ms)
+					TypeCache.ScanAssembly (274ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (265ms)
+			SetupLoadedEditorAssemblies (511ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (9ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (22ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,48 +111,48 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\EAS_V2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\EAS_V2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.083 seconds
-Refreshing native plugins compatible for Editor in 5.57 ms, found 7 plugins.
+- Loaded All Assemblies, in  9.098 seconds
+Refreshing native plugins compatible for Editor in 5.11 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.959 seconds
+- Finished resetting the current domain, in  1.125 seconds
 Domain Reload Profiling:
-	ReloadAssembly (269ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (528ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		LoadAllAssembliesAndSetupDomain (812ms)
-			LoadAssemblies (359ms)
+			CreateAndSetChildDomain (32ms)
+		LoadAllAssembliesAndSetupDomain (8565ms)
+			LoadAssemblies (1393ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (528ms)
-				TypeCache.Initialize (464ms)
-					TypeCache.ScanAssembly (458ms)
-				ResolveRequiredComponents (22ms)
+			SetupTypeCache (6078ms)
+				TypeCache.Initialize (6016ms)
+					TypeCache.ScanAssembly (5960ms)
+				ResolveRequiredComponents (19ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (747ms)
+			SetupLoadedEditorAssemblies (898ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (5ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (534ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (695ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 6.42 ms, found 7 plugins.
+			AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 8.19 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6097 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 112 unused Assets / (2.0 MB). Loaded Objects now: 6596.
-Memory consumption went from 325.0 MB to 323.0 MB.
-Total: 7.477800 ms (FindLiveObjects: 0.589000 ms CreateObjectMapping: 0.641500 ms MarkObjects: 5.261900 ms  DeleteObjects: 0.984200 ms)
+Memory consumption went from 325.1 MB to 323.1 MB.
+Total: 9.137500 ms (FindLiveObjects: 0.674000 ms CreateObjectMapping: 0.559600 ms MarkObjects: 7.076400 ms  DeleteObjects: 0.826200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -168,153 +168,1806 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 620151.694869 seconds.
-  path: Assets/Art/Models/Original
-  artifactKey: Guid(c70fd9835ce3a9d48b5da7620a7bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Original using Guid(c70fd9835ce3a9d48b5da7620a7bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e177eb16db590c4200d4e8f97f240e70') in 0.004207 seconds
+  Time since last request: 626181.711352 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pie_Pumpkin_Cut_01.fbx
+  artifactKey: Guid(e112fb388fbab0a4499a081d589df6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pie_Pumpkin_Cut_01.fbx using Guid(e112fb388fbab0a4499a081d589df6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a20cf745cd7e0c5720e49fb5fdb899') in 0.263288 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 60.198993 seconds.
-  path: Assets/Art/Materials/New Material 2.mat
-  artifactKey: Guid(c565e51f16fe17f43b51f1f16c761e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/New Material 2.mat using Guid(c565e51f16fe17f43b51f1f16c761e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99efa1e1a4d06c23353b1d3622a48057') in 0.170303 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Cooked_04.fbx
+  artifactKey: Guid(806c0e2004cd9da46bce4c97bac09ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Cooked_04.fbx using Guid(806c0e2004cd9da46bce4c97bac09ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d55d42246c36f7bdba68564064f81b') in 0.023156 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000849 seconds.
-  path: Assets/Art/Materials/New Material 6.mat
-  artifactKey: Guid(b166d97ad24e0374aafe25a16522906c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/New Material 6.mat using Guid(b166d97ad24e0374aafe25a16522906c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e108bd0237d48feeca43eee5ff540f') in 0.037626 seconds
+  Time since last request: 0.001811 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Raw_02.fbx
+  artifactKey: Guid(b8c4921c2e3e31740b66fec2c9bb2fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Raw_02.fbx using Guid(b8c4921c2e3e31740b66fec2c9bb2fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288aa143118badf62ad489ad30a4ca81') in 0.014965 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.157394 seconds.
-  path: Assets/Art/Materials/New Material 3.mat
-  artifactKey: Guid(659203ce467d59c42adcf018a80b8106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/New Material 3.mat using Guid(659203ce467d59c42adcf018a80b8106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a98fb06df9dd2e3d25d2c197cebbd8') in 0.017501 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Quiche_01.fbx
+  artifactKey: Guid(0f03aded470380543bdee800936a388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Quiche_01.fbx using Guid(0f03aded470380543bdee800936a388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea47d2968c51b705812078504ada61c') in 0.015798 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 7
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\EAS_V2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\EAS_V2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.346 seconds
-Refreshing native plugins compatible for Editor in 5.70 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.780 seconds
-Domain Reload Profiling:
-	ReloadAssembly (345ms)
-		BeginReloadAssembly (233ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		LoadAllAssembliesAndSetupDomain (996ms)
-			LoadAssemblies (429ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (669ms)
-				TypeCache.Initialize (648ms)
-					TypeCache.ScanAssembly (638ms)
-				ResolveRequiredComponents (15ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1052ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (794ms)
-				ProcessInitializeOnLoadMethodAttributes (135ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 5.25 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5950 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (2.0 MB). Loaded Objects now: 6652.
-Memory consumption went from 297.7 MB to 295.7 MB.
-Total: 5.822300 ms (FindLiveObjects: 0.609200 ms CreateObjectMapping: 0.642000 ms MarkObjects: 3.952400 ms  DeleteObjects: 0.617700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Cooked_01.fbx
+  artifactKey: Guid(0bf50a2165c972344bb5004ad39b91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Cooked_01.fbx using Guid(0bf50a2165c972344bb5004ad39b91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8543ab9f746cdb35494a72be85b82a') in 0.014837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\EAS_V2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\EAS_V2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.173 seconds
-Refreshing native plugins compatible for Editor in 6.32 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.794 seconds
-Domain Reload Profiling:
-	ReloadAssembly (315ms)
-		BeginReloadAssembly (199ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		LoadAllAssembliesAndSetupDomain (853ms)
-			LoadAssemblies (420ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (526ms)
-				TypeCache.Initialize (511ms)
-					TypeCache.ScanAssembly (498ms)
-				ResolveRequiredComponents (14ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1005ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (737ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 6.85 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5951 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (2.0 MB). Loaded Objects now: 6667.
-Memory consumption went from 298.2 MB to 296.2 MB.
-Total: 6.224700 ms (FindLiveObjects: 0.481000 ms CreateObjectMapping: 0.538100 ms MarkObjects: 4.641200 ms  DeleteObjects: 0.563400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_02.fbx
+  artifactKey: Guid(5f3549de580286b4487cb8a770a1acd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_02.fbx using Guid(5f3549de580286b4487cb8a770a1acd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4492cee4b48d170cf5c1c5029973dee') in 0.013581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Tray_01_Food_01.fbx
+  artifactKey: Guid(1ae4a82a2e5282041a56c8dd6ff9cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Tray_01_Food_01.fbx using Guid(1ae4a82a2e5282041a56c8dd6ff9cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57ea973aaa8325b954f1345fb790257') in 0.019022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mall_Kiosk_Information_Sign_01.fbx
+  artifactKey: Guid(f43b713b5b5582f4aac155dee1d6e9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mall_Kiosk_Information_Sign_01.fbx using Guid(f43b713b5b5582f4aac155dee1d6e9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0025ec5767d7dfe8c9b9ae59b6c3b41a') in 0.026494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bulb_02.fbx
+  artifactKey: Guid(c8068fd6ebb96b24e93cac4306296b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bulb_02.fbx using Guid(c8068fd6ebb96b24e93cac4306296b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8cc1b6d3b96c6e8d25866dd1b6f8c5') in 0.016964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Xmas_Snowman_Base.fbx
+  artifactKey: Guid(469f3fbf79c1d244aaad0a09606ed82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Xmas_Snowman_Base.fbx using Guid(469f3fbf79c1d244aaad0a09606ed82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b953b3dedc1da67870808e18d1998dc') in 0.018840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_34.fbx
+  artifactKey: Guid(31c836a869a2eca4c96f244655a2a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_34.fbx using Guid(31c836a869a2eca4c96f244655a2a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cecbea8e9d17d16adf5e35326d7ae3') in 0.016453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000896 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_27.fbx
+  artifactKey: Guid(99632c582d626b244a390cf761147216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_27.fbx using Guid(99632c582d626b244a390cf761147216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cb01f85c914da43884f19090c57838') in 0.012209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Torso_Male_04.fbx
+  artifactKey: Guid(295bad92b4e71974c90dcd17256866d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Torso_Male_04.fbx using Guid(295bad92b4e71974c90dcd17256866d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2157d09512791ca5f1e0d85ccc049bcd') in 0.011131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Spotlight_05.fbx
+  artifactKey: Guid(da8e0da9a8844a447b1a6d714db57dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Spotlight_05.fbx using Guid(da8e0da9a8844a447b1a6d714db57dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4d9c79f68716333aa8c123ad1d4e73') in 0.013110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Price_Board_04.fbx
+  artifactKey: Guid(2bbca482b36ccd94abb5531473a4ec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Price_Board_04.fbx using Guid(2bbca482b36ccd94abb5531473a4ec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a06732f1bd24eb1c5e7eb94f2b5905f') in 0.014931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Art/Models/Shops/SM_Wep_Rifle_01.fbx
+  artifactKey: Guid(e1b85b317fa18bd4ab4f5171faae7ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Wep_Rifle_01.fbx using Guid(e1b85b317fa18bd4ab4f5171faae7ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af76dd2b64cfea4f958a73cf0f7fd91') in 0.101799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Takeaway_Bag_01.fbx
+  artifactKey: Guid(44f8e23e04327914cb381a752739a9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Takeaway_Bag_01.fbx using Guid(44f8e23e04327914cb381a752739a9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2683d739df8579c9288c642b12a28d3') in 0.012068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_23.fbx
+  artifactKey: Guid(54fff8be8664c6943b13d0c71f572341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_23.fbx using Guid(54fff8be8664c6943b13d0c71f572341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c978495f8639b12ddec967cc00628d') in 0.012723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Canvas_Banner_07.fbx
+  artifactKey: Guid(e3f2a479cd7a85844a58704ee343ac42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Canvas_Banner_07.fbx using Guid(e3f2a479cd7a85844a58704ee343ac42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7023ec6afeef355104945933eabea6f6') in 0.012785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Sale_Poster_03.fbx
+  artifactKey: Guid(4729560b3cf08f843b82d40846ddd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Sale_Poster_03.fbx using Guid(4729560b3cf08f843b82d40846ddd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774908fe11e11503748b983bc6958cbf') in 0.011232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Recessed_02.fbx
+  artifactKey: Guid(a8847782a50ca514cb1491b89e20a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Recessed_02.fbx using Guid(a8847782a50ca514cb1491b89e20a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c736721ffaf9d90807eae4b0d2353d1') in 0.014728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Raw_01.fbx
+  artifactKey: Guid(f65afbae9e16b724881fd457f409e358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Raw_01.fbx using Guid(f65afbae9e16b724881fd457f409e358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e55eba4a6fa47c26ad42f96d103aa7') in 0.011837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_13.fbx
+  artifactKey: Guid(d3e95b400b3c4d9489dee984ea87f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_13.fbx using Guid(d3e95b400b3c4d9489dee984ea87f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a943e2e77cea684dcb0eac6c2e97f846') in 0.012618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_01.fbx
+  artifactKey: Guid(da5ffc6d071306445aca5cab2b23b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_01.fbx using Guid(da5ffc6d071306445aca5cab2b23b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8098ad09ae513343419b8af471febd71') in 0.012186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sugar_02.fbx
+  artifactKey: Guid(614d5d23f5fb7494c92e8f43bc39bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sugar_02.fbx using Guid(614d5d23f5fb7494c92e8f43bc39bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731ecf4aefee66b2ab3ff21f6cb11f7d') in 0.012920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Market_Aisle_01.fbx
+  artifactKey: Guid(a68b05595c25af84dad89070bfb69b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Market_Aisle_01.fbx using Guid(a68b05595c25af84dad89070bfb69b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca278c0b330acdbe9e4b5ce3fa20ebd4') in 0.017414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_Carparking_01.fbx
+  artifactKey: Guid(0b635e4346e95a04ab1e1d174aa59c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_Carparking_01.fbx using Guid(0b635e4346e95a04ab1e1d174aa59c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62eac1aa106619eaa13194cf36df969') in 0.017189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Tennis_Racket_Bag_01.fbx
+  artifactKey: Guid(fefdcb43dfed40c4ab65729b1dfd6032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Tennis_Racket_Bag_01.fbx using Guid(fefdcb43dfed40c4ab65729b1dfd6032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f73e466331c24291f0ffb75d8e323df') in 0.015496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Wall_01.fbx
+  artifactKey: Guid(1e75d1532418f214da79719110a32e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Wall_01.fbx using Guid(1e75d1532418f214da79719110a32e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1edfe833b0d0d1b85ec15b79b6625a') in 0.027964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Market_Aisle_04.fbx
+  artifactKey: Guid(2f28f55b292cbdd43bbe21c7a556fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Market_Aisle_04.fbx using Guid(2f28f55b292cbdd43bbe21c7a556fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ee214dc50b1935d84771ed86f90b16') in 0.037208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.003297 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_Whiteware_01.fbx
+  artifactKey: Guid(8309d7ed45c770b4984df742fa814f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_Whiteware_01.fbx using Guid(8309d7ed45c770b4984df742fa814f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9354519cdc7e1a235700f62a88411a5') in 0.013699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Helmet_01.fbx
+  artifactKey: Guid(25fbc912e9f3b144ea542ee637d2b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Helmet_01.fbx using Guid(25fbc912e9f3b144ea542ee637d2b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197d63bc9029add1088ef4cb896c601c') in 0.014072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Taco_03.fbx
+  artifactKey: Guid(7fa4b0a906b3ada41b63fe0b203e67e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Taco_03.fbx using Guid(7fa4b0a906b3ada41b63fe0b203e67e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b433bc890422ef3a42a7853f737fd1') in 0.010243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Wall_Pipe_01.fbx
+  artifactKey: Guid(b0e68a013dcb24841939ec2ee42c5d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Wall_Pipe_01.fbx using Guid(b0e68a013dcb24841939ec2ee42c5d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5fb0368848a1325ff92d0ba92190f8') in 0.011165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_04.fbx
+  artifactKey: Guid(17b7b0dec23fcd84ab7edd19d396b1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_04.fbx using Guid(17b7b0dec23fcd84ab7edd19d396b1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a061298d0a137f06fe8b51bad9b8dd') in 0.011383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_FriesStation_FriesPile_01.fbx
+  artifactKey: Guid(58108139b5dbb924eb9cc1b59daa5b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_FriesStation_FriesPile_01.fbx using Guid(58108139b5dbb924eb9cc1b59daa5b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca7263ea5de082fbae23024720459ec') in 0.010694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Tray_01.fbx
+  artifactKey: Guid(a304c9966685be54699f842d4a0c37aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Tray_01.fbx using Guid(a304c9966685be54699f842d4a0c37aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e925c667ce364a7cbd8379ccf701a853') in 0.009881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002138 seconds.
+  path: Assets/Art/Models/Shops/SM_Wep_Hunting_Knife_04.fbx
+  artifactKey: Guid(9c338e05d40462b49ad439f4e9be80d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Wep_Hunting_Knife_04.fbx using Guid(9c338e05d40462b49ad439f4e9be80d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5235c768ad1d9fe04dc8560596c77a27') in 0.039147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001755 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_3dText_Sushi_01.fbx
+  artifactKey: Guid(1a642d79e59a722439e5ccba8ec6ce6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_3dText_Sushi_01.fbx using Guid(1a642d79e59a722439e5ccba8ec6ce6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e70f59b0d41b7009d1de0254056363') in 0.017705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_40.fbx
+  artifactKey: Guid(75503bfd710af9e4a929150cc027a425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_40.fbx using Guid(75503bfd710af9e4a929150cc027a425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acc23059141277fc558375a1924722e') in 0.015296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Female_03.fbx
+  artifactKey: Guid(ec285efd0fc03394ba2eeeb64b61b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Female_03.fbx using Guid(ec285efd0fc03394ba2eeeb64b61b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a349868a99805b4842a26bf4b5f683e') in 0.015937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.004001 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Warehouse_Cage_Trolley_01_Insert_01.fbx
+  artifactKey: Guid(cd3d719d971744f4883f588e3fdcd12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Warehouse_Cage_Trolley_01_Insert_01.fbx using Guid(cd3d719d971744f4883f588e3fdcd12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56af49a64b5f209717108a3b49c9ab62') in 0.015121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001425 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_Prohibited_06.fbx
+  artifactKey: Guid(ecf840d0d9210f8409acb7661ed9e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_Prohibited_06.fbx using Guid(ecf840d0d9210f8409acb7661ed9e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7fb0e6dc690270ccf8d3daf3d2d6e9') in 0.020986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000935 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Foldout_04.fbx
+  artifactKey: Guid(014298c613190db4784d020fcc13fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Foldout_04.fbx using Guid(014298c613190db4784d020fcc13fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c04c8d9cdc674454c39cd7c0fd6c4d') in 0.010203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Large_Hunting_01.fbx
+  artifactKey: Guid(f5018f08964c9f34da0eee3adf084783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Large_Hunting_01.fbx using Guid(f5018f08964c9f34da0eee3adf084783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2154b251c7472542181c461c7a9901') in 0.152492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_28.fbx
+  artifactKey: Guid(466ba09531336aa4187b5e8b78f4d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_28.fbx using Guid(466ba09531336aa4187b5e8b78f4d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f80ae978b6228765642b311d138862c') in 0.019144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Torso_Male_03.fbx
+  artifactKey: Guid(fd0b557344338b643b7266deb6fdc9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Torso_Male_03.fbx using Guid(fd0b557344338b643b7266deb6fdc9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be5755cbba093aa60ffa075b7f68f74') in 0.011586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/Models/Shops/SM_Wep_Hunting_Machete_01.fbx
+  artifactKey: Guid(159b0d54cce4de54eab2aeaacca9329b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Wep_Hunting_Machete_01.fbx using Guid(159b0d54cce4de54eab2aeaacca9329b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaf8b197a696275237509bd139ad8c1') in 0.011882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Market_Aisle_03.fbx
+  artifactKey: Guid(6c09d422fbaf3554f878a0cff1becae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Market_Aisle_03.fbx using Guid(6c09d422fbaf3554f878a0cff1becae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162623f068ff7a3fda601211fe508709') in 0.038056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Male_03.fbx
+  artifactKey: Guid(e1865b94f315f1542acf32fe6cfac235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Male_03.fbx using Guid(e1865b94f315f1542acf32fe6cfac235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66254edef56284d30852b39c683dfc9b') in 0.047144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Backing_Short_04.fbx
+  artifactKey: Guid(fb7d6665f7881194f83b7c3143904008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Backing_Short_04.fbx using Guid(fb7d6665f7881194f83b7c3143904008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e7f0930c79e825f864463a1dfa1d08') in 0.011484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001134 seconds.
+  path: Assets/Art/Models/Shops/SM_Wep_Hunting_Knife_06.fbx
+  artifactKey: Guid(2963d71bf64e58b45a303203b1f50d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Wep_Hunting_Knife_06.fbx using Guid(2963d71bf64e58b45a303203b1f50d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e057b8602189ed8bae68a75339ee9d77') in 0.011943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Taco_05.fbx
+  artifactKey: Guid(4005c0390baff7046b2cdde9ddf13a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Taco_05.fbx using Guid(4005c0390baff7046b2cdde9ddf13a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83585b07dde493a0360dbdae2495d28') in 0.012799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pineapple_Ring_01.fbx
+  artifactKey: Guid(92cb214d66b820244b99bb10b6680254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pineapple_Ring_01.fbx using Guid(92cb214d66b820244b99bb10b6680254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b2b2dca323a38b5d7ca55470f96cb9') in 0.012396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Saucer_03.fbx
+  artifactKey: Guid(19d9a0db80d6e1b4ba0271e8a07de05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Saucer_03.fbx using Guid(19d9a0db80d6e1b4ba0271e8a07de05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd50484324641591bb8b06dbc4cc2c2b') in 0.013267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Cooked_02.fbx
+  artifactKey: Guid(7d080cf8f25269f42b88cc1a048bae6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Cooked_02.fbx using Guid(7d080cf8f25269f42b88cc1a048bae6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a45df06a341774fb2492da7c4412607') in 0.013470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Number_Eight_01.fbx
+  artifactKey: Guid(732254668aeb4274bad5ee3915a5e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Number_Eight_01.fbx using Guid(732254668aeb4274bad5ee3915a5e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b640ca91fa2ed6beb6b69ae54c95d8b0') in 0.020515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Foldout_01.fbx
+  artifactKey: Guid(51a1827cb14b6754bb2f7a78889c9083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Foldout_01.fbx using Guid(51a1827cb14b6754bb2f7a78889c9083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7669a197250558434b23831e08ae1a89') in 0.016045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_32.fbx
+  artifactKey: Guid(e7f131f0dd0f3604381bc4fc1b7efad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_32.fbx using Guid(e7f131f0dd0f3604381bc4fc1b7efad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba8facc73f6297d1e2afdccaec830d4') in 0.019931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_10.fbx
+  artifactKey: Guid(3f7edc76e386c5943bac2cc6c7c2601e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_10.fbx using Guid(3f7edc76e386c5943bac2cc6c7c2601e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce2d562f897696152b6dcd3c9e8ef85') in 0.017842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002422 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_30.fbx
+  artifactKey: Guid(c48207c54e9cd304189a844cf3fb6fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_30.fbx using Guid(c48207c54e9cd304189a844cf3fb6fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57383df3e7f78620fa4a8ae01a83c3f0') in 0.037285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Flag_01.fbx
+  artifactKey: Guid(1fafedaf7326a3c47879d0cf758dfedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Flag_01.fbx using Guid(1fafedaf7326a3c47879d0cf758dfedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257de99c6e5e5144c32ca26cd9d1dae0') in 0.046680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Male_04.fbx
+  artifactKey: Guid(61e9c91a12668b24b991b702c7671da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Male_04.fbx using Guid(61e9c91a12668b24b991b702c7671da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc8f2b6bece7ac104aa0da41f5f2b30') in 0.017746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002952 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Toast_01.fbx
+  artifactKey: Guid(634f7bda2208ca54db46bb974506894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Toast_01.fbx using Guid(634f7bda2208ca54db46bb974506894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cf28f3c1be4ccef8acf72cbaca77b9') in 0.014365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Salami_Sliced_01.fbx
+  artifactKey: Guid(0f1d5735a158dd94f82a3ae586b75c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Salami_Sliced_01.fbx using Guid(0f1d5735a158dd94f82a3ae586b75c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64eeeb4d0a8362b75067d539c4720808') in 0.014449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Large_Zone_01.fbx
+  artifactKey: Guid(25d388abdd33e204dae7d54f6c9d6030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Large_Zone_01.fbx using Guid(25d388abdd33e204dae7d54f6c9d6030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e5702fdf40c2c83af386b67c322a83') in 0.011205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Post_03.fbx
+  artifactKey: Guid(4938204961c986248868549a9781847d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Post_03.fbx using Guid(4938204961c986248868549a9781847d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c523038cf80e6c4fc1f98ea3d50a9a99') in 0.011251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_42.fbx
+  artifactKey: Guid(45b8a90ba0ceef84282fdbe299b45d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_42.fbx using Guid(45b8a90ba0ceef84282fdbe299b45d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8126bc12b3394d3b72fcb2eb86c30d8b') in 0.010328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sausage_String_01.fbx
+  artifactKey: Guid(463b6eee0941a1a42b4040cc9541c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sausage_String_01.fbx using Guid(463b6eee0941a1a42b4040cc9541c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40a4d4e0198f9dd8a56512b17503b37') in 0.016207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_04.fbx
+  artifactKey: Guid(f9dbef1d0628e02438bc6e7e89ec5973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_04.fbx using Guid(f9dbef1d0628e02438bc6e7e89ec5973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6110045cdb783bb4cb6c36d06897718') in 0.012609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_GolfBag_01.fbx
+  artifactKey: Guid(67d0262e1383e8440b7c86d56276cbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_GolfBag_01.fbx using Guid(67d0262e1383e8440b7c86d56276cbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356d3f33ef0b501d0bc1dff4c19f937f') in 0.028896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Warehouse_Cardboard_Box_06.fbx
+  artifactKey: Guid(54d634dce90f0a9409ccd62a3a2a4fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Warehouse_Cardboard_Box_06.fbx using Guid(54d634dce90f0a9409ccd62a3a2a4fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f14137f02578ee5dd9defab9dbd011') in 0.011742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Backing_Short_02.fbx
+  artifactKey: Guid(7f40087834f3ea5428daa8df7afe0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Backing_Short_02.fbx using Guid(7f40087834f3ea5428daa8df7afe0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17691f36b8ad825a62cea1ad40898539') in 0.014875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Number_Five_01.fbx
+  artifactKey: Guid(45f7919e21296694799a0a28400fc7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Number_Five_01.fbx using Guid(45f7919e21296694799a0a28400fc7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4f4385ac244f92cb7234e51bf86633') in 0.010989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Food_Grade_06.fbx
+  artifactKey: Guid(dac40162e1429b5498749e9c0663ef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Food_Grade_06.fbx using Guid(dac40162e1429b5498749e9c0663ef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cac61c3807b74e162db623e47d2596e') in 0.015192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_3dText_Shop_01.fbx
+  artifactKey: Guid(0dbef33de82642843b86e525c808fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_3dText_Shop_01.fbx using Guid(0dbef33de82642843b86e525c808fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ed1b66cf2913f3265e9e1ebf7f9fb9') in 0.015822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Hat_01.fbx
+  artifactKey: Guid(95b9f49f6ae171142be6e981ce14a246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Hat_01.fbx using Guid(95b9f49f6ae171142be6e981ce14a246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d5ba3238d9e1adb21728f83cb7a717') in 0.012240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Warehouse_Cage_Trolley_01.fbx
+  artifactKey: Guid(8245c220f47df294f888139abcaa70fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Warehouse_Cage_Trolley_01.fbx using Guid(8245c220f47df294f888139abcaa70fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19844aa70df74e69bb8461f4cfaa1a9') in 0.013763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Accent_06.fbx
+  artifactKey: Guid(c87008866d47bfd46a3ec916d9072426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Accent_06.fbx using Guid(c87008866d47bfd46a3ec916d9072426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3a05814e5a179466f9c70325a5e2ee') in 0.012900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Backing_Long_01.fbx
+  artifactKey: Guid(358be016e66fb094db9ac34a81298ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Backing_Long_01.fbx using Guid(358be016e66fb094db9ac34a81298ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cd14ca1424fd8a24936821f0bb61d4') in 0.012614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.013187 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Salami_Whole_01.fbx
+  artifactKey: Guid(43bda9c7dc1d0a94db21053f52ebc9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Salami_Whole_01.fbx using Guid(43bda9c7dc1d0a94db21053f52ebc9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff1861cba82e6fdbf3b5e08765412f1') in 0.012063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Wall_03.fbx
+  artifactKey: Guid(85f9e061ce34b4745a5e49e39ecd1a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Wall_03.fbx using Guid(85f9e061ce34b4745a5e49e39ecd1a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0d6677fa3dac8e8b6918c97760b0a6') in 0.021033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Exit_04.fbx
+  artifactKey: Guid(fb00e9aefb6dd0c49b782b6a61dc5e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Exit_04.fbx using Guid(fb00e9aefb6dd0c49b782b6a61dc5e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f401dad5c1d3c1afee1c33897f36b3') in 0.013559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Warehouse_Cardboard_Box_04.fbx
+  artifactKey: Guid(1d4d95c1c6006894982ce47946063ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Warehouse_Cardboard_Box_04.fbx using Guid(1d4d95c1c6006894982ce47946063ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6720da77ce92693c7637694c3741ec') in 0.012627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_12.fbx
+  artifactKey: Guid(3f0b42029ee5a50429ab8d0a40ed5d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_12.fbx using Guid(3f0b42029ee5a50429ab8d0a40ed5d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4eecccc2180b54656cecfbf33c571f') in 0.010969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_41.fbx
+  artifactKey: Guid(17e2178c8b4252349b5bc498bdfea15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_41.fbx using Guid(17e2178c8b4252349b5bc498bdfea15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb8e44eb1d46dfd6cfff9f49a2b5d60') in 0.011704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Price_Board_07.fbx
+  artifactKey: Guid(536cb1cb4ca061e4085918f95e7c730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Price_Board_07.fbx using Guid(536cb1cb4ca061e4085918f95e7c730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672e6522e96870993019f22efc98e5b4') in 0.011695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sauce_Packet_02.fbx
+  artifactKey: Guid(41394a1afd69fd74fb04b445bff33dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sauce_Packet_02.fbx using Guid(41394a1afd69fd74fb04b445bff33dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3155c133f3bd87181e9154f1cfd8749d') in 0.010543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Torso_Female_01.fbx
+  artifactKey: Guid(93bb7ad993ab64d46872086e71fcff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Torso_Female_01.fbx using Guid(93bb7ad993ab64d46872086e71fcff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb056d78a7b535e652d8190fe62ef59') in 0.013717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_Playground_01.fbx
+  artifactKey: Guid(a4a5ff87cc27ede49ba5b6944f39f2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_Playground_01.fbx using Guid(a4a5ff87cc27ede49ba5b6944f39f2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe843bce62150f69ee061106e442f8b2') in 0.018638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Spotlight_01.fbx
+  artifactKey: Guid(16933fb4204cdd6438cd48fe9880ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Spotlight_01.fbx using Guid(16933fb4204cdd6438cd48fe9880ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe4594f68ee230cc9670917c26c68e7') in 0.064109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Kick_Pad_01.fbx
+  artifactKey: Guid(8ddc15fe4488c474aaa139c9bfc209bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Kick_Pad_01.fbx using Guid(8ddc15fe4488c474aaa139c9bfc209bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59cb94c0fddd01848d1148f20e9e217') in 0.018479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_20.fbx
+  artifactKey: Guid(c2a91cffd15874e44a235178a6972c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_20.fbx using Guid(c2a91cffd15874e44a235178a6972c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b32cda7810d85b656d0ec0218313e4') in 0.021335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Taco_06.fbx
+  artifactKey: Guid(0b45e2f6bd140504ba3ed9d8037b6326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Taco_06.fbx using Guid(0b45e2f6bd140504ba3ed9d8037b6326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bfe09f0f08cfd3e1e82f424234c1b8') in 0.027105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Food_Grade_05.fbx
+  artifactKey: Guid(313be4caf3e85404ca7e36d3957170be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Food_Grade_05.fbx using Guid(313be4caf3e85404ca7e36d3957170be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d5980f05724d2e7651a9df1d1fd97a') in 0.012982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Wrap_02.fbx
+  artifactKey: Guid(6f752627d6adb2845b6c9e62c9bcc538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Wrap_02.fbx using Guid(6f752627d6adb2845b6c9e62c9bcc538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5800c903f23d6831df87ef7e1e6abdc') in 0.013361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sushi_05.fbx
+  artifactKey: Guid(e9db87169877cd846a26234d753e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sushi_05.fbx using Guid(e9db87169877cd846a26234d753e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7ed367eb9c99e6d5f858529e35b4dc') in 0.014526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_25.fbx
+  artifactKey: Guid(b6e4589e710883d45be479d6301fcfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_25.fbx using Guid(b6e4589e710883d45be479d6301fcfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a496fdb9b78d708bb63efb2cfb2d0c2') in 0.015698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_36.fbx
+  artifactKey: Guid(d0fb1226e9f0b334687e9503822f920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_36.fbx using Guid(d0fb1226e9f0b334687e9503822f920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad03180229518abc811a2c814d0f296d') in 0.016864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sauce_Ketchup_01.fbx
+  artifactKey: Guid(95256ff39f56c2b498466f356cc5f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sauce_Ketchup_01.fbx using Guid(95256ff39f56c2b498466f356cc5f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f4e9ccc05c0407f325f5a94c8d6ec5') in 0.021371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Rugby_Ball_01.fbx
+  artifactKey: Guid(17e0358bbe8f4784b902483eff39331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Rugby_Ball_01.fbx using Guid(17e0358bbe8f4784b902483eff39331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259d9fae31b62a7d80cc318d378cd7dd') in 0.015890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Number_Three_01.fbx
+  artifactKey: Guid(0e59af1158709d1479e07453f64e0155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Number_Three_01.fbx using Guid(0e59af1158709d1479e07453f64e0155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5936e438a5874b65d56705ff1eeedc1f') in 0.016428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001046 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_09.fbx
+  artifactKey: Guid(0d5dbe699f4e7aa428a1616790f357e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_09.fbx using Guid(0d5dbe699f4e7aa428a1616790f357e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd069df3dc01e4cd4c261e081e3c1b51e') in 0.028706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Xmas_Snowman.fbx
+  artifactKey: Guid(28d02c28b3fa45148bd886b01bb1e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Xmas_Snowman.fbx using Guid(28d02c28b3fa45148bd886b01bb1e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b380258b530bc8fd44f2433c5d979331') in 0.020479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Salami_Slice_01.fbx
+  artifactKey: Guid(fd80d2687a8c5c443afb84e4228f8334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Salami_Slice_01.fbx using Guid(fd80d2687a8c5c443afb84e4228f8334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68fa971a730d7543a81790b658e3fe7') in 0.017047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_3dText_Thrift_01.fbx
+  artifactKey: Guid(86403c8c12568044a9eb39ab056ebf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_3dText_Thrift_01.fbx using Guid(86403c8c12568044a9eb39ab056ebf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9f5ba6977f4875a1cc2c373fa01924') in 0.016955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_02.fbx
+  artifactKey: Guid(f103b3f3f42ef91499276c1ba5614636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_02.fbx using Guid(f103b3f3f42ef91499276c1ba5614636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31498612933a6e54145b4dde95abc0e') in 0.014634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_21.fbx
+  artifactKey: Guid(d7491bf8af89b4149a577e0cb0d0c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_21.fbx using Guid(d7491bf8af89b4149a577e0cb0d0c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7249948bddbe176b4821d80e426368') in 0.014548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_09.fbx
+  artifactKey: Guid(5bc4214bf926ab8448bc78d55a2e2247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_09.fbx using Guid(5bc4214bf926ab8448bc78d55a2e2247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00750b25cf6a0320137d3d8fa1b7f21') in 0.014959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_TeaAndCoffee_01.fbx
+  artifactKey: Guid(5235158ba8091304685d09846e5772c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_TeaAndCoffee_01.fbx using Guid(5235158ba8091304685d09846e5772c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb6400ae4a6462543235917b567e445') in 0.014438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_03.fbx
+  artifactKey: Guid(f0856e25f231a8c44974d7d6af44529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_03.fbx using Guid(f0856e25f231a8c44974d7d6af44529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bbd85a37cb2b699e2139f9ba22c795') in 0.024290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_Entry_01.fbx
+  artifactKey: Guid(7c31d2f5ee0be974c86e2fa53ff35f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_Entry_01.fbx using Guid(7c31d2f5ee0be974c86e2fa53ff35f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0d58d01c7f091be94a09880eaa5d17') in 0.019157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_01.fbx
+  artifactKey: Guid(c6b7a91ff4fd66542b19362496c119bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_01.fbx using Guid(c6b7a91ff4fd66542b19362496c119bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d4b31df52312f0585c18a0cbe19b48') in 0.024158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_Prohibited_01.fbx
+  artifactKey: Guid(db1a0230a1fd1564a9a1157b57b2459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_Prohibited_01.fbx using Guid(db1a0230a1fd1564a9a1157b57b2459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90ef39734bfb67866cb4220978e29e9') in 0.013691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Wall_Pipe_02.fbx
+  artifactKey: Guid(694875a4cea73e94d96a628403cabe94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Wall_Pipe_02.fbx using Guid(694875a4cea73e94d96a628403cabe94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e85addbbf9f4ad81cff2c3f3dd4979') in 0.012525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Female_01.fbx
+  artifactKey: Guid(c8977a19cee7abf46b856ca985a8bb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Female_01.fbx using Guid(c8977a19cee7abf46b856ca985a8bb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d0469d93ace78c6335f2e987c8ff31') in 0.043325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_16.fbx
+  artifactKey: Guid(3d95a838057d4954bab951712d70ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_16.fbx using Guid(3d95a838057d4954bab951712d70ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca68a827cd79ecc0bcc2a6313f50827c') in 0.012143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Art/Models/Shops/SM_Wep_Pistol_01.fbx
+  artifactKey: Guid(cdc6aba2c1f63c140bbd0c991bef64cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Wep_Pistol_01.fbx using Guid(cdc6aba2c1f63c140bbd0c991bef64cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b7b41ba288702ed0f603c61e772d4e') in 0.046195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Cooked_02.fbx
+  artifactKey: Guid(362e51c1c37e21f408294d8d24df9fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Cooked_02.fbx using Guid(362e51c1c37e21f408294d8d24df9fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd261153ec8f8701a2cf6b0e8e7144e9') in 0.015897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Accent_04.fbx
+  artifactKey: Guid(88a6b7117c5ca194d95cb16216b69371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Accent_04.fbx using Guid(88a6b7117c5ca194d95cb16216b69371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a5185a07b6c238d21437b00827f13d') in 0.014320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_06.fbx
+  artifactKey: Guid(b50a926fef2379d4387a55f23f1cbc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_06.fbx using Guid(b50a926fef2379d4387a55f23f1cbc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc079c7313d2187e13fbc5cdaa068ed') in 0.013064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Cage_01.fbx
+  artifactKey: Guid(067dc75a771b3b14692920e752bbbdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Cage_01.fbx using Guid(067dc75a771b3b14692920e752bbbdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7e99309f06d16ff22be2159f986cb2') in 0.015244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Post_02.fbx
+  artifactKey: Guid(448d14d22fd0b9d42b01e72b1bf9e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Post_02.fbx using Guid(448d14d22fd0b9d42b01e72b1bf9e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0d27577c9ebfcceefc6e7f887004e0') in 0.012923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Price_Board_01.fbx
+  artifactKey: Guid(a46227762cae3d04a9cfe2f3b58a178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Price_Board_01.fbx using Guid(a46227762cae3d04a9cfe2f3b58a178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a31a3dfd4855605efbaab3e4a4a4687') in 0.013786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_05.fbx
+  artifactKey: Guid(c1995d10bf6bd5d409feed5379a20718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_05.fbx using Guid(c1995d10bf6bd5d409feed5379a20718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd0014e8d73a820d68bc2d14ab6a6ea') in 0.013582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Tray_01_Food_02.fbx
+  artifactKey: Guid(88bc953c25027154b865df0a138d8489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Tray_01_Food_02.fbx using Guid(88bc953c25027154b865df0a138d8489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa04ea7976e67991c89470a781e355c') in 0.012375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_06.fbx
+  artifactKey: Guid(b9c319ec7f16cf4498901bd0c021e7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_06.fbx using Guid(b9c319ec7f16cf4498901bd0c021e7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1794512a9be091da489d0e4aeffed7e6') in 0.013643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Soccer_Ball_01.fbx
+  artifactKey: Guid(d4e3222a92bd7d340b7167b45466b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Soccer_Ball_01.fbx using Guid(d4e3222a92bd7d340b7167b45466b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902f67cc25fa779f01c4028da2248cf2') in 0.014950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Warehouse_Step_Ladder_01.fbx
+  artifactKey: Guid(ce10d6a0fc98bca4fa5c5f3bc1b7c6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Warehouse_Step_Ladder_01.fbx using Guid(ce10d6a0fc98bca4fa5c5f3bc1b7c6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fcc4afd10076d1ca7ffd6e6f07f1dd') in 0.015441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_TowelRail_01.fbx
+  artifactKey: Guid(75378eb629e812846aa07c42f440277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_TowelRail_01.fbx using Guid(75378eb629e812846aa07c42f440277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3bb096fc2b9223c8d8059957281724') in 0.011676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Raw_01.fbx
+  artifactKey: Guid(411cb2ea4a8a08c42a3b52d68ced32c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Raw_01.fbx using Guid(411cb2ea4a8a08c42a3b52d68ced32c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7e87a80abb7b1d6d6ccde39ccda9eb') in 0.011909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Base_04.fbx
+  artifactKey: Guid(7ed8dd52489f2cd42933ce7f8fd8485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Base_04.fbx using Guid(7ed8dd52489f2cd42933ce7f8fd8485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687fc3504b0fb518fab0802c9e1d89ac') in 0.013827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Neon_Open_02.fbx
+  artifactKey: Guid(4c779041e898d564dac9535b6662b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Neon_Open_02.fbx using Guid(4c779041e898d564dac9535b6662b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2d7e3469b1191d0e8b9834730b296f') in 0.014426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Helmet_Football_01.fbx
+  artifactKey: Guid(039fddecd9993c74aa25636fbed6366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Helmet_Football_01.fbx using Guid(039fddecd9993c74aa25636fbed6366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1eefaf5d299e377655be28c9bb82034') in 0.014823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Takeaway_Container_01.fbx
+  artifactKey: Guid(bf67fbfac684be84fab2093134927b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Takeaway_Container_01.fbx using Guid(bf67fbfac684be84fab2093134927b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a663b0d7d312e7e5808621fcf68ba179') in 0.016017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Ribs_Large_Raw_01.fbx
+  artifactKey: Guid(87dc2238e8fd9074883ed0973f03aa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Ribs_Large_Raw_01.fbx using Guid(87dc2238e8fd9074883ed0973f03aa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3221de67076a2b779622e41c2be56276') in 0.021698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Male_03.fbx
+  artifactKey: Guid(04cf2feb8bf38124c841692bc6fd02c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Male_03.fbx using Guid(04cf2feb8bf38124c841692bc6fd02c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9c8a3175e7bde45b05e72179065d57') in 0.016975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Canvas_Banner_03.fbx
+  artifactKey: Guid(a9b953876178f6e478da99f910933ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Canvas_Banner_03.fbx using Guid(a9b953876178f6e478da99f910933ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a6c010df8769868f20bcb3160134cb') in 0.013920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Exit_01.fbx
+  artifactKey: Guid(85c3298e3657f6e428841a8f472f6201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Exit_01.fbx using Guid(85c3298e3657f6e428841a8f472f6201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e03fa22cf296d9f248713ac1ed73492') in 0.014653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sushi_04.fbx
+  artifactKey: Guid(afa7b23a90778cc448989841cf543341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sushi_04.fbx using Guid(afa7b23a90778cc448989841cf543341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3833785748df39c090ca2ec212b47aaf') in 0.026555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Price_Board_06.fbx
+  artifactKey: Guid(b3ddcb3db1142cd42b634eb9233b6f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Price_Board_06.fbx using Guid(b3ddcb3db1142cd42b634eb9233b6f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ae0c3bd1c205ec7360e995c65c1758') in 0.015628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Female_01.fbx
+  artifactKey: Guid(42d5063c570389842bf1429ffcf8ef10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Female_01.fbx using Guid(42d5063c570389842bf1429ffcf8ef10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9de6ca0e69b1a5906bf91b78419ecce') in 0.017531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_03.fbx
+  artifactKey: Guid(7c35ae2b2734a464288fa18ee408df17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_03.fbx using Guid(7c35ae2b2734a464288fa18ee408df17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537671375ab6ff8035f619a1bf01ab47') in 0.018822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_02.fbx
+  artifactKey: Guid(f5984eb0f3a916447b5fe5cd2afe58cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_02.fbx using Guid(f5984eb0f3a916447b5fe5cd2afe58cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583b11614f3fafcd49cd7272bf601d4c') in 0.020615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000842 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Torso_Female_03.fbx
+  artifactKey: Guid(48eb4ad01b6875344a39d4d3857779d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Torso_Female_03.fbx using Guid(48eb4ad01b6875344a39d4d3857779d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280887e7db1e82e4bb35d4497dedf726') in 0.022582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001700 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Tomato_Chunk_02.fbx
+  artifactKey: Guid(33cc8e1ec0172064e97fd946c49e5dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Tomato_Chunk_02.fbx using Guid(33cc8e1ec0172064e97fd946c49e5dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7006df4faae0f6db6bf61b956cfe95d0') in 0.018438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_11.fbx
+  artifactKey: Guid(0a5ef4a5edeb24349a8eceeb5c432892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_11.fbx using Guid(0a5ef4a5edeb24349a8eceeb5c432892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311efe159c9ad776f07f37ff553d8f24') in 0.017695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_12.fbx
+  artifactKey: Guid(df90531bc27a3194dbfab77ae133e8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_12.fbx using Guid(df90531bc27a3194dbfab77ae133e8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2869ce07cc7855cd5127743d9b6047') in 0.027357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Canvas_Banner_01.fbx
+  artifactKey: Guid(303b81b63aca2ec4fabdc97354cfcf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Canvas_Banner_01.fbx using Guid(303b81b63aca2ec4fabdc97354cfcf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfb5b0121c9eb78d22fa6b3c173b4b0') in 0.019856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001166 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Backing_Short_06.fbx
+  artifactKey: Guid(c4e9101ea86108040992246a856a1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Backing_Short_06.fbx using Guid(c4e9101ea86108040992246a856a1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bb05ca3fb9f22cfdc8cdda897afd6c') in 0.020844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_FoodCourt_01.fbx
+  artifactKey: Guid(5160fd9e719fd8a45bfff88f18162981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_FoodCourt_01.fbx using Guid(5160fd9e719fd8a45bfff88f18162981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8ad552bc654c79971aac384cddf838') in 0.019617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Wall_Powerbox_01.fbx
+  artifactKey: Guid(0b9fdb936d53f7d43b80f4d44ecd2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Wall_Powerbox_01.fbx using Guid(0b9fdb936d53f7d43b80f4d44ecd2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15f5b95410f0e57b04d027b8faeae9d') in 0.024986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Female_02.fbx
+  artifactKey: Guid(4ba188631b25b7249b04d84894344272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Female_02.fbx using Guid(4ba188631b25b7249b04d84894344272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e8ce74530dd5f3199e8fc9b648e0fb') in 0.022903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001037 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Flag_04.fbx
+  artifactKey: Guid(3936f0cf55de8dc409eeeb4bee98873c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Flag_04.fbx using Guid(3936f0cf55de8dc409eeeb4bee98873c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028b6c98cafd15be391afc37a3703244') in 0.031573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_Information_01.fbx
+  artifactKey: Guid(8c2b2b2a29a1f2a4dbef8eec8b163d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_Information_01.fbx using Guid(8c2b2b2a29a1f2a4dbef8eec8b163d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5407e15a99e2aa779f9a06305860f87c') in 0.025770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Food_Grade_04.fbx
+  artifactKey: Guid(4d73dffe5cca2a5459ac242fe218c62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Food_Grade_04.fbx using Guid(4d73dffe5cca2a5459ac242fe218c62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64440f3422c4c2f8113b34763cc05607') in 0.017131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Hat_03.fbx
+  artifactKey: Guid(dcb12e8363dce544387d8bbc49896364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Hat_03.fbx using Guid(dcb12e8363dce544387d8bbc49896364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8124d39e807f9a252890cf17bf714758') in 0.022233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Large_Tech_01.fbx
+  artifactKey: Guid(dbb50bb4090ecee428df8d8437bf38d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Large_Tech_01.fbx using Guid(dbb50bb4090ecee428df8d8437bf38d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73435d522691ae77c2d1bd3613ce55b') in 0.014893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_Arrow_01.fbx
+  artifactKey: Guid(d4051c447854afb40aacac119e17e50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_Arrow_01.fbx using Guid(d4051c447854afb40aacac119e17e50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc402de0abb8ef50a8a1ab751023575f') in 0.028667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Number_Nine_01.fbx
+  artifactKey: Guid(63e859319b218dd45a2fee7c2e489967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Number_Nine_01.fbx using Guid(63e859319b218dd45a2fee7c2e489967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5b68e5c4ccf518b75c343c9c801a25') in 0.016833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Golfball_01.fbx
+  artifactKey: Guid(ba775149112608a49aa6b2f5d1d50c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Golfball_01.fbx using Guid(ba775149112608a49aa6b2f5d1d50c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c069d3a17df91c4446650f9124c0b4') in 0.015210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Xmas_Caine_01.fbx
+  artifactKey: Guid(738e1a70cae34334cbe4881772df5138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Xmas_Caine_01.fbx using Guid(738e1a70cae34334cbe4881772df5138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9b6796eb65a3b121212245faf18037') in 0.016359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Mall_Pacific_01.fbx
+  artifactKey: Guid(0bfccb7f2f7205241aa11fe816762be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Mall_Pacific_01.fbx using Guid(0bfccb7f2f7205241aa11fe816762be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5d3832aec8f705991f05fd677536ae') in 0.017230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_06.fbx
+  artifactKey: Guid(ab1f1f40d75e80d489a122ac7f46324e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_06.fbx using Guid(ab1f1f40d75e80d489a122ac7f46324e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb37082dc49d55bbafa2317c908f137') in 0.016476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Tomato_Slice_01.fbx
+  artifactKey: Guid(a833e4a55ed88b94588e8167b7e6fae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Tomato_Slice_01.fbx using Guid(a833e4a55ed88b94588e8167b7e6fae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaed08268c5c4125b921ee0dd916bd0') in 0.013078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Male_02.fbx
+  artifactKey: Guid(91dbe219f4b2aaa4a8c3e3ce7777400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Male_02.fbx using Guid(91dbe219f4b2aaa4a8c3e3ce7777400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a5b81a4cea9dda13e8951a3f72038c') in 0.022668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Canvas_Banner_04.fbx
+  artifactKey: Guid(b7a41587339641b4cb7d842ce7d4e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Canvas_Banner_04.fbx using Guid(b7a41587339641b4cb7d842ce7d4e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd70fb7964075eb436815ad74a325a9') in 0.017150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_22.fbx
+  artifactKey: Guid(687c875266078fb4a92ca9ee012a24a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_22.fbx using Guid(687c875266078fb4a92ca9ee012a24a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18c107ba219cc888da28867c7b65a7b') in 0.017376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Cooked_05.fbx
+  artifactKey: Guid(97fb9e0e350f62c4793d13adb307edd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Cooked_05.fbx using Guid(97fb9e0e350f62c4793d13adb307edd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84b95a864ed93015baaacbc3811ea4a') in 0.017293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_3dText_Takeout_01.fbx
+  artifactKey: Guid(8e12b4b05515b724d9bd838ec581202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_3dText_Takeout_01.fbx using Guid(8e12b4b05515b724d9bd838ec581202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b3b5fa8273dff6c4437b58bfd1e00c') in 0.019928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Backing_Long_05.fbx
+  artifactKey: Guid(93d650edb6a20dc4e89416e853eb1668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Backing_Long_05.fbx using Guid(93d650edb6a20dc4e89416e853eb1668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc88ec827f31eec6ebc3390a938818f7') in 0.016346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_Prohibited_02.fbx
+  artifactKey: Guid(675b8b4bc9c67394eb676eda0cf6aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_Prohibited_02.fbx using Guid(675b8b4bc9c67394eb676eda0cf6aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe1e44c0056e63de2e5a6aa54b74132') in 0.022147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sushi_01.fbx
+  artifactKey: Guid(8127091f7083fa44a8bb1b5d34614901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sushi_01.fbx using Guid(8127091f7083fa44a8bb1b5d34614901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7e3a3754468f7f0fa281e634118f71') in 0.026566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_05.fbx
+  artifactKey: Guid(a6def55f2ef4fef4e90d429f70c5c2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_05.fbx using Guid(a6def55f2ef4fef4e90d429f70c5c2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca7acc10a14a546d567dd08533f99f1') in 0.016749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Quiche_01_Slice.fbx
+  artifactKey: Guid(5a20daa851145114cad61b414cebd34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Quiche_01_Slice.fbx using Guid(5a20daa851145114cad61b414cebd34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16f055c2d3f817d02edc53e6b4e65d1') in 0.023081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Sale_Poster_05.fbx
+  artifactKey: Guid(3a6529890aa5c204e83f04b495062f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Sale_Poster_05.fbx using Guid(3a6529890aa5c204e83f04b495062f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df9e1fdfecd6a5ab2c2b9bf6bbd8f2d') in 0.013878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Tomato_Sliced_01.fbx
+  artifactKey: Guid(6f253459968573d498e6a683247c3b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Tomato_Sliced_01.fbx using Guid(6f253459968573d498e6a683247c3b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf2369051cff9ceac70c65eea0c0308') in 0.017758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_29.fbx
+  artifactKey: Guid(f6330f29e2002a149bbb1c524a6c5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_29.fbx using Guid(f6330f29e2002a149bbb1c524a6c5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fe9f4c51e2c3f75a89100f1b36c65f') in 0.011553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Tennis_Ball_01.fbx
+  artifactKey: Guid(3ce9b19f3f519ea4f83dc5a6ecb33043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Tennis_Ball_01.fbx using Guid(3ce9b19f3f519ea4f83dc5a6ecb33043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20916b1ae8de8cd0269c48ebca14b11e') in 0.012768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Dough_01.fbx
+  artifactKey: Guid(bbbb0d0edf09e094db2c82def6498ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Dough_01.fbx using Guid(bbbb0d0edf09e094db2c82def6498ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5596ae6150ff3d5b62ef995a11507d4') in 0.011659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_3dText_Steakhouse_01.fbx
+  artifactKey: Guid(d5e69afd70915a441b9ebf87ad41d662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_3dText_Steakhouse_01.fbx using Guid(d5e69afd70915a441b9ebf87ad41d662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d632cff95e4afeefc3ac5196a554db2') in 0.011450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Neon_Open_01.fbx
+  artifactKey: Guid(2b42e5373fc9cc646a2e98906298f0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Neon_Open_01.fbx using Guid(2b42e5373fc9cc646a2e98906298f0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eb71be579045c1b282830e8c9070fb') in 0.010763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_07.fbx
+  artifactKey: Guid(4eb9bf6c0423e054d9084f2e9de3517b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_07.fbx using Guid(4eb9bf6c0423e054d9084f2e9de3517b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d8a5d4c28b1764b1e2414f2489740f') in 0.011032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Large_Arcade_01.fbx
+  artifactKey: Guid(7c921761968ee1541a1d433ef9a33710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Large_Arcade_01.fbx using Guid(7c921761968ee1541a1d433ef9a33710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70a492b7065fda4392cac66046ea446') in 0.013614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Wall_04.fbx
+  artifactKey: Guid(7bc8c25763a2d7f46aca884bda47daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Wall_04.fbx using Guid(7bc8c25763a2d7f46aca884bda47daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92872cfb3d320174451723513a47882b') in 0.023006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Backing_Short_01.fbx
+  artifactKey: Guid(7d5962c3af2ccf5429e9e8c527ced88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Backing_Short_01.fbx using Guid(7d5962c3af2ccf5429e9e8c527ced88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726cabdc851c841c77323226a081b943') in 0.011642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_08.fbx
+  artifactKey: Guid(a636658cd26495f4b8e257f97cc65bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Burnt_08.fbx using Guid(a636658cd26495f4b8e257f97cc65bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ceb3a42ed157709dbd5c459f1c8a12') in 0.010799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sauce_Mayo_01.fbx
+  artifactKey: Guid(cf5d8b80e98991b4e83866222e3aa2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sauce_Mayo_01.fbx using Guid(cf5d8b80e98991b4e83866222e3aa2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef65b7b495e27d53803e9846bc7dd97') in 0.011170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Stand_01.fbx
+  artifactKey: Guid(c575951dc228e8e498359a9a4e7b03c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Stand_01.fbx using Guid(c575951dc228e8e498359a9a4e7b03c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ff670beec9a54befa13ecc3ae77a43') in 0.013749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_05.fbx
+  artifactKey: Guid(994ce66e2f71e774e9f56d58b39c4a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pizza_Slice_05.fbx using Guid(994ce66e2f71e774e9f56d58b39c4a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1c3ba0bdf052e6c452e7955d3d4332') in 0.012112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Taco_04.fbx
+  artifactKey: Guid(92c9b8163955c2a40a8cefb1352337bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Taco_04.fbx using Guid(92c9b8163955c2a40a8cefb1352337bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e52fafb2e4fffda15ac49acb5825ab') in 0.013307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Industrial_03.fbx
+  artifactKey: Guid(433a132e7763a4a44a986af44871f98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Industrial_03.fbx using Guid(433a132e7763a4a44a986af44871f98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6f172290a4fd76a9a66b1c38313e1e') in 0.024691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Streetlight_Double_01.fbx
+  artifactKey: Guid(612352814aaa4ff4585a696c96ddbd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Streetlight_Double_01.fbx using Guid(612352814aaa4ff4585a696c96ddbd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2494a7cdfbaa9e83253680de1152a31b') in 0.013457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Number_Zero_01.fbx
+  artifactKey: Guid(ddb41d9cf5999424ebc5a71011ee9897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Number_Zero_01.fbx using Guid(ddb41d9cf5999424ebc5a71011ee9897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057d631b9488adcede793545c9af9301') in 0.013494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Sale_Poster_02.fbx
+  artifactKey: Guid(dbf007d89b4a89842ab78384960be749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Sale_Poster_02.fbx using Guid(dbf007d89b4a89842ab78384960be749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf0052f25f97f7d1e48a457561d78f3') in 0.021572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Golf_Club_03.fbx
+  artifactKey: Guid(e626b6283f3f2b4458bc05700ba6f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Golf_Club_03.fbx using Guid(e626b6283f3f2b4458bc05700ba6f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883f14fde865f7aa9a71e0558770abde') in 0.012791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Pineapple_Cut_01.fbx
+  artifactKey: Guid(59eb1d1f6d1528c4393937284c1e99fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Pineapple_Cut_01.fbx using Guid(59eb1d1f6d1528c4393937284c1e99fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782b6cce6ed5fee444a6befe5133dd4a') in 0.011471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Female_04.fbx
+  artifactKey: Guid(2689c63e0257d7c4e990f2dc6f966704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Female_04.fbx using Guid(2689c63e0257d7c4e990f2dc6f966704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43defab4de0f64b293f6d4cbb584fb8') in 0.015411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_Arrow_03.fbx
+  artifactKey: Guid(bfe08c20907d16945b06893ddf00bd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_Arrow_03.fbx using Guid(bfe08c20907d16945b06893ddf00bd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1016aeddb3d2730656840a6f3ebf6c69') in 0.012499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Ribs_Large_Cooked_01.fbx
+  artifactKey: Guid(c2da0fc06e4cdb841ab84150ed621271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Ribs_Large_Cooked_01.fbx using Guid(c2da0fc06e4cdb841ab84150ed621271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb20731cfc6289fc08e37a5e12503538') in 0.015561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_07.fbx
+  artifactKey: Guid(82359630ec4b4a3459e083ec8f8719a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Lighting_Ceiling_Bar_07.fbx using Guid(82359630ec4b4a3459e083ec8f8719a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0ea3322c625fbdc4fd6f6564845fb6') in 0.013328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Exit_Fire_01.fbx
+  artifactKey: Guid(3a7da091876a7e5438100d4d9aa8e6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Exit_Fire_01.fbx using Guid(3a7da091876a7e5438100d4d9aa8e6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db0843cfad7b7d7226e896748c55296') in 0.015746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Models/Shops/SM_Veh_Food_Trailer_02.fbx
+  artifactKey: Guid(821ec42ce704b214fa44986bba50af9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Veh_Food_Trailer_02.fbx using Guid(821ec42ce704b214fa44986bba50af9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83bd1ac002967fde970167b86f69d8f') in 0.767617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Flag_05.fbx
+  artifactKey: Guid(89bd8e2e9a1c2c94b8a62ac348ad0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Flag_05.fbx using Guid(89bd8e2e9a1c2c94b8a62ac348ad0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4255e74e879cd58c9d20f534d6180ea8') in 0.023416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Scooter_01.fbx
+  artifactKey: Guid(5df8cd1783b72664b9513fef36d56adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Scooter_01.fbx using Guid(5df8cd1783b72664b9513fef36d56adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476ef55825751085583393e0a1e6833f') in 0.147027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Female_02.fbx
+  artifactKey: Guid(b816187c42daa6e498f08f24f01da308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mannequin_Head_Female_02.fbx using Guid(b816187c42daa6e498f08f24f01da308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce9548ed35def18c5c93f40226ee46b') in 0.014777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Neon_Open_04.fbx
+  artifactKey: Guid(c0eca367307e30b4c847e512b9573ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Neon_Open_04.fbx using Guid(c0eca367307e30b4c847e512b9573ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9f7560e3b8189c45c9593f86fd07d2') in 0.205652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001331 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Sport_Shuttlecock_01.fbx
+  artifactKey: Guid(5489f4d0e48841d468007430b0656135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Sport_Shuttlecock_01.fbx using Guid(5489f4d0e48841d468007430b0656135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f1560eb2d83d6ae376fca2e2e59a40') in 0.018113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_19.fbx
+  artifactKey: Guid(ae810e6c7514ffc46bd7058e73ba08d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_19.fbx using Guid(ae810e6c7514ffc46bd7058e73ba08d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891a5586eb571a650f948f69438b2d76') in 0.027190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Taco_07.fbx
+  artifactKey: Guid(a710ae5764e7ee24fb94574b7541df31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Taco_07.fbx using Guid(a710ae5764e7ee24fb94574b7541df31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9416ed871e461ab301da7b8c27d5134') in 0.016664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001100 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Warehouse_Safety_Step_01.fbx
+  artifactKey: Guid(cb5da931b93346946af27e09775ba4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Warehouse_Safety_Step_01.fbx using Guid(cb5da931b93346946af27e09775ba4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeacc7c3375b1a7903957bee527462ab') in 0.015171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Backing_Long_03.fbx
+  artifactKey: Guid(177f0bb7ae9cc8c4fb3992b5b130da7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Backing_Long_03.fbx using Guid(177f0bb7ae9cc8c4fb3992b5b130da7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910f72df9ea95b5c88f4a012b09b5549') in 0.012716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Burnt_01.fbx
+  artifactKey: Guid(99bbddc4fb044ad4a9a3b6ea793e6352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Sausage_Burnt_01.fbx using Guid(99bbddc4fb044ad4a9a3b6ea793e6352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff8586cf5eb900a5479b8a839ec16ab') in 0.013444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000608 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Warehouse_Step_Ladder_02.fbx
+  artifactKey: Guid(704d4106d3903074e91229c752035beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Warehouse_Step_Ladder_02.fbx using Guid(704d4106d3903074e91229c752035beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e160d2fe868721f331c62d7773ba04') in 0.016769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Flag_07.fbx
+  artifactKey: Guid(c12eaa08c6317a240ac16737c4d30a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Flag_07.fbx using Guid(c12eaa08c6317a240ac16737c4d30a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46864b5c7f4da309ca782e8766845a0') in 0.049310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Text_A_01.fbx
+  artifactKey: Guid(570f43ec94628f946811af9c7946d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Text_A_01.fbx using Guid(570f43ec94628f946811af9c7946d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148f15094f3596570aeedd627c0bc495') in 0.038157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001271 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Exit_02.fbx
+  artifactKey: Guid(e5e30ea4f6449474384b2701e0e3812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Exit_02.fbx using Guid(e5e30ea4f6449474384b2701e0e3812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cdd58e03df693222c6a978702c698c') in 0.023882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Number_Six_01.fbx
+  artifactKey: Guid(236d6ba1230505c4684d2984e0ed953a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Number_Six_01.fbx using Guid(236d6ba1230505c4684d2984e0ed953a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2846fca0f356ffb7b36552fd481665') in 0.023312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000685 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Coffee_Cup_01.fbx
+  artifactKey: Guid(a20d2dadd1243954588e497f9b66012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Coffee_Cup_01.fbx using Guid(a20d2dadd1243954588e497f9b66012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cc41e999a12824d1350df34f8f3eb7') in 0.020389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Backing_Short_03.fbx
+  artifactKey: Guid(dbd814fb7c238b54d8d518d722835af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Backing_Short_03.fbx using Guid(dbd814fb7c238b54d8d518d722835af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f61b1738052181f2fd08375b7f7529') in 0.024625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Foldout_06.fbx
+  artifactKey: Guid(77c262b128d81144c9b7b3eadfaa6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Foldout_06.fbx using Guid(77c262b128d81144c9b7b3eadfaa6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1816f0e6ebb99b61beb736bec3f535c') in 0.014890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Warehouse_Pallet_Stacked_02.fbx
+  artifactKey: Guid(38acf277c5c2c31479d334dbfd24d194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Warehouse_Pallet_Stacked_02.fbx using Guid(38acf277c5c2c31479d334dbfd24d194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f58df03a2b54de5acce9fe08e592188') in 0.013019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000909 seconds.
+  path: Assets/Art/Models/Shops/SM_Sign_Board_Prohibited_08.fbx
+  artifactKey: Guid(b1948de1e0355ee4393cfc46a2e4ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Sign_Board_Prohibited_08.fbx using Guid(b1948de1e0355ee4393cfc46a2e4ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b815f7c24ca11c63fae527fde54fa32') in 0.019916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Food_Taco_01.fbx
+  artifactKey: Guid(2ff695578d5b7894184add55aaac5674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Food_Taco_01.fbx using Guid(2ff695578d5b7894184add55aaac5674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17376d62825f25982d715ecb83947602') in 0.019965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Models/Shops/SM_Prop_Mall_Kiosk_Cabinet_01.fbx
+  artifactKey: Guid(7ec504e5a9438d843a96f602d54f42b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Shops/SM_Prop_Mall_Kiosk_Cabinet_01.fbx using Guid(7ec504e5a9438d843a96f602d54f42b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff6570ec25d4e916d473542ec3d3c94') in 0.027588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
