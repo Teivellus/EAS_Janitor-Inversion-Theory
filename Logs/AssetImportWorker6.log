@@ -1,0 +1,594 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32721 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/Unity Projects/EAS_V2
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+59254
+Successfully changed project path to: D:/Unity Projects/EAS_V2
+D:/Unity Projects/EAS_V2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25776] Host "[IP] 192.168.1.125 [Port] 0 [Flags] 2 [Guid] 1401322716 [EditorId] 1401322716 [Version] 1048832 [Id] WindowsEditor(7,Jhaydun-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25776] Host "[IP] 192.168.1.125 [Port] 0 [Flags] 2 [Guid] 1401322716 [EditorId] 1401322716 [Version] 1048832 [Id] WindowsEditor(7,Jhaydun-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 12.08 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/EAS_V2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11120 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011308 seconds.
+- Loaded All Assemblies, in  0.375 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 649ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (276ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.872 seconds
+Refreshing native plugins compatible for Editor in 6.41 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.831 seconds
+Domain Reload Profiling: 1699ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (595ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (326ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (831ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (638ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.19 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6142 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (2.0 MB). Loaded Objects now: 6639.
+Memory consumption went from 321.0 MB to 319.0 MB.
+Total: 4.221300 ms (FindLiveObjects: 0.545600 ms CreateObjectMapping: 0.529300 ms MarkObjects: 2.648000 ms  DeleteObjects: 0.485700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77438.584851 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Jacket_05.prefab
+  artifactKey: Guid(73f8d1837e3ab00499441b785dadcafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Jacket_05.prefab using Guid(73f8d1837e3ab00499441b785dadcafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c12d8132fe6e0188f8c382f9b58eb1f') in 0.220601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Rack_07.prefab
+  artifactKey: Guid(b2ba57a598ec0c0498d8ee098108fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Rack_07.prefab using Guid(b2ba57a598ec0c0498d8ee098108fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37df05aa7df3cfe64c95389de0302e69') in 0.036405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Rack_01.prefab
+  artifactKey: Guid(e4cd9774cd78ec244b86199bbc154fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Rack_01.prefab using Guid(e4cd9774cd78ec244b86199bbc154fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743c40d40e4271ad6ffe60dfe2156789') in 0.131844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.277153 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Scarf_Hanger_01.prefab
+  artifactKey: Guid(fd1c00f04e1805845b2a06122e2dbc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Scarf_Hanger_01.prefab using Guid(fd1c00f04e1805845b2a06122e2dbc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f6b025b04ed99edcd2e26f9d8e5d31') in 0.032634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shelf_Large_Alt_01.prefab
+  artifactKey: Guid(ccb97dda63e779f49817c48001cc8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shelf_Large_Alt_01.prefab using Guid(ccb97dda63e779f49817c48001cc8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f6ca35e9971a50795e4eef5c3e60b1') in 0.025467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shirt_05.prefab
+  artifactKey: Guid(62e431b924c9f564c93f33a673d6e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shirt_05.prefab using Guid(62e431b924c9f564c93f33a673d6e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bdd6bf1d1c03ebe294693228b44f82') in 0.024995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shirt_06.prefab
+  artifactKey: Guid(cc671549e5be0b841b373024859ac61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shirt_06.prefab using Guid(cc671549e5be0b841b373024859ac61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b4476fbc519663cbbe53580e383da6') in 0.023401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.726548 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shoe_07.prefab
+  artifactKey: Guid(1cc12e9c60b357c43a75e8aaa68bbd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shoe_07.prefab using Guid(1cc12e9c60b357c43a75e8aaa68bbd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea35c6981feb9ff9858a365041a7b498') in 0.022895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Wall_Hanger_01.prefab
+  artifactKey: Guid(8477289aa6366624da3e000baf8e5d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Wall_Hanger_01.prefab using Guid(8477289aa6366624da3e000baf8e5d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df10c5611bb3f19b094a8164d98be9b7') in 0.026028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Gaming_Console_01.prefab
+  artifactKey: Guid(e08cc9da41365db48874576b7298ab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Gaming_Console_01.prefab using Guid(e08cc9da41365db48874576b7298ab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732c3276e29ea86b0d3faa6c8e892268') in 0.022809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Camera_Mirrorless_01.prefab
+  artifactKey: Guid(42bbf734750459548ac9c7e0e723fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Camera_Mirrorless_01.prefab using Guid(42bbf734750459548ac9c7e0e723fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12866ce14d538fa6f737ab778a8b58b3') in 0.025164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shorts_02.prefab
+  artifactKey: Guid(f6451026036fa36408020e3a4bb59a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Clothes_Shorts_02.prefab using Guid(f6451026036fa36408020e3a4bb59a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62294da38366d265dd7224ab6fea9cba') in 0.019044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.278727 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Keyboard_02.prefab
+  artifactKey: Guid(7e5a2bdefeeb3c54cae08d9f8a6e44be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Keyboard_02.prefab using Guid(7e5a2bdefeeb3c54cae08d9f8a6e44be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566fd63cde9578fbe1a52be90b1c4ef0') in 0.016531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Laptop_03.prefab
+  artifactKey: Guid(f2fa2992c94ba4549b5c5362226c3eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Laptop_03.prefab using Guid(f2fa2992c94ba4549b5c5362226c3eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fb3674c741731f768d9f8106f27a77') in 0.016670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Modem_01.prefab
+  artifactKey: Guid(e65c6a2a5ee454542bbdac64117caa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Modem_01.prefab using Guid(e65c6a2a5ee454542bbdac64117caa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3866ec1c47b1289c72a7f7661f4a85a') in 0.019576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Laptop_Case_02.prefab
+  artifactKey: Guid(8a2b3243c09dae64f8abbb66f1e6b59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Laptop_Case_02.prefab using Guid(8a2b3243c09dae64f8abbb66f1e6b59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8df91193843a5b55ea9a78dca2d571') in 0.016944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.073729 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Modem_Box_01.prefab
+  artifactKey: Guid(b2facf05938949c4ab73537a084651b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Modem_Box_01.prefab using Guid(b2facf05938949c4ab73537a084651b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181c5d899f092e82d862ec9c22b01558') in 0.019937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Monitor_05.prefab
+  artifactKey: Guid(ecbc07a15ab2e40489fd1527c646d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Monitor_05.prefab using Guid(ecbc07a15ab2e40489fd1527c646d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824df15d6c60b3484dbe19402cd39239') in 0.020766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Mouse_Box_02.prefab
+  artifactKey: Guid(9675221f93c985d46a8deee073b739a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Mouse_Box_02.prefab using Guid(9675221f93c985d46a8deee073b739a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86afdd0a2376cfe37ee38dc0d2c0e13') in 0.033549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000710 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Mouse_Box_03.prefab
+  artifactKey: Guid(50449d78947f357488fb08ada0ed1d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Mouse_Box_03.prefab using Guid(50449d78947f357488fb08ada0ed1d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d13ebfb714467b7ac721099468b19a') in 0.033029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.627202 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Mousepad_02.prefab
+  artifactKey: Guid(1e0610893dda70c44852c01302a6eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Mousepad_02.prefab using Guid(1e0610893dda70c44852c01302a6eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a989b626cb235745c63fa9ae6368cbbe') in 0.020478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Phone_Cordless_01_Handset_01.prefab
+  artifactKey: Guid(00852f8386fb8c64fbb84eb25e4fec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Phone_Cordless_01_Handset_01.prefab using Guid(00852f8386fb8c64fbb84eb25e4fec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7bf427f208c8075235d3eecf2d5c26') in 0.020835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.001246 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Printer_02.prefab
+  artifactKey: Guid(4188c9e69b04ff7479036db8e62d6234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Printer_02.prefab using Guid(4188c9e69b04ff7479036db8e62d6234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba493946360ff2ba439cc3aa204f808c') in 0.017460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Smartphone_01.prefab
+  artifactKey: Guid(55df446729213374f90a9f55bca8ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Smartphone_01.prefab using Guid(55df446729213374f90a9f55bca8ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2399bfe66b122c0ec84aabaa43e045f') in 0.020296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.765148 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Tower_03.prefab
+  artifactKey: Guid(236055669a6025943ba3a6b6e639d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_Tower_03.prefab using Guid(236055669a6025943ba3a6b6e639d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d38ccf0fdce2a67891ca5d62666a9e0') in 0.021329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Diorama_01.prefab
+  artifactKey: Guid(d950b669535eee047993448f040637e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Diorama_01.prefab using Guid(d950b669535eee047993448f040637e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a658491fd16270f0cdad7e96e55b7a2d') in 0.069863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_TV_Soundbar_01.prefab
+  artifactKey: Guid(72fbbfe5bc2a08f4e8dfa0efcb5d9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Computer_TV_Soundbar_01.prefab using Guid(72fbbfe5bc2a08f4e8dfa0efcb5d9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bd7ebcad9bde3e7d13ede32dceffd1') in 0.022248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.047383 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Dumptser_02.prefab
+  artifactKey: Guid(ccfc876888e996f43985ea9e902c19e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Dumptser_02.prefab using Guid(ccfc876888e996f43985ea9e902c19e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3975c2db0eb48adfe00cc481b7844f2b') in 0.020185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Elevator_Buttons_01.prefab
+  artifactKey: Guid(d78db2c9c92d95c46b071d012f2eae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Elevator_Buttons_01.prefab using Guid(d78db2c9c92d95c46b071d012f2eae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d16cc7bc78f6a263d85761620ce5ab6') in 0.018360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Flower_Bouquet_01.prefab
+  artifactKey: Guid(40fb234267e2f7a4a96e737f156b8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Flower_Bouquet_01.prefab using Guid(40fb234267e2f7a4a96e737f156b8b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72154e8b90ef6292460a64cd59cfa0b5') in 0.018982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Flower_Bouquet_Small_03.prefab
+  artifactKey: Guid(4c31e33079c728d4aac956f751cf1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Flower_Bouquet_Small_03.prefab using Guid(4c31e33079c728d4aac956f751cf1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b7e2bf71aa62a7011d15d6cce7dbb0') in 0.021149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.493119 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Flower_Stand_02.prefab
+  artifactKey: Guid(63b18206f7d422e458e543cda32c9309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Flower_Stand_02.prefab using Guid(63b18206f7d422e458e543cda32c9309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec380d4abded8fc22c883bd79566ade') in 0.022726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gazebo_01.prefab
+  artifactKey: Guid(6880cc21f82c772498799beceeab2c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gazebo_01.prefab using Guid(6880cc21f82c772498799beceeab2c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d4fd50a2f280bded531faee31979f4') in 0.021418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Bar_Bell_01.prefab
+  artifactKey: Guid(2c149c988c191f44c875db73f8e93f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Bar_Bell_01.prefab using Guid(2c149c988c191f44c875db73f8e93f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14098128f565c0a3eb3da1f2d0c107b8') in 0.021134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Grass_Plinth_01.prefab
+  artifactKey: Guid(8aadf96a4206bf543b0874d48a92cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Grass_Plinth_01.prefab using Guid(8aadf96a4206bf543b0874d48a92cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db9a202b1c4a87f2609e71740a859da') in 0.023263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.669552 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Core_Roller_01.prefab
+  artifactKey: Guid(a67e740afd19b2b45bffacce69aeddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Core_Roller_01.prefab using Guid(a67e740afd19b2b45bffacce69aeddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54305704ef267e09d2f593896ff7f773') in 0.018360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.003368 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Dumbbell_03.prefab
+  artifactKey: Guid(9385e9ff514467445a76ecb63091ed0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Dumbbell_03.prefab using Guid(9385e9ff514467445a76ecb63091ed0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb3b770dd5761a45c87c4203a9127a2') in 0.017861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Kettle_Bell_03.prefab
+  artifactKey: Guid(23a30c76718c24d41af9c96900f1c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Kettle_Bell_03.prefab using Guid(23a30c76718c24d41af9c96900f1c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d495ca6904efca09e9c087620fa742') in 0.027117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Gym_Bench_01.prefab
+  artifactKey: Guid(2c761c0451540174689d5365c629477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Gym_Bench_01.prefab using Guid(2c761c0451540174689d5365c629477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8925fa967b1f36ba25ac9c5a7bd2477a') in 0.025797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 1.354807 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Plate_02.prefab
+  artifactKey: Guid(84cb02325c8a9774cb38d656cb38f4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Plate_02.prefab using Guid(84cb02325c8a9774cb38d656cb38f4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257a950f063d0cfb78863b1ab1c62e00') in 0.023891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Squat_Rack_01.prefab
+  artifactKey: Guid(a75563c795203f74982c93a251199520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Squat_Rack_01.prefab using Guid(a75563c795203f74982c93a251199520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c49f2bbef9f0e62b0d0e0997dbbfc22') in 0.036122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Yoga_Mat_Rolled_01.prefab
+  artifactKey: Guid(d31000cc9b570594c8690d64edb30dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Yoga_Mat_Rolled_01.prefab using Guid(d31000cc9b570594c8690d64edb30dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd413897b6643920585414f7ba434260e') in 0.029488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000866 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Yoga_Mat_03.prefab
+  artifactKey: Guid(a45cf2ba511573b409bea51cea50e381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Gym_Yoga_Mat_03.prefab using Guid(a45cf2ba511573b409bea51cea50e381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29240b75eeae78ca8d75641d40a4b4d') in 0.019036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.883555 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Ammo_Pile_01.prefab
+  artifactKey: Guid(cd80a5e84a4faa24289a6534c9921fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Ammo_Pile_01.prefab using Guid(cd80a5e84a4faa24289a6534c9921fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3a1ea74cb503dfcb465675372b7c28') in 0.022269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Animal_Head_02.prefab
+  artifactKey: Guid(e81f2d5bb219ad44b880b94d9850c7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Animal_Head_02.prefab using Guid(e81f2d5bb219ad44b880b94d9850c7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2ee2e4012da22b37ad2ceb6a4acf81') in 0.017681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Backpack_01.prefab
+  artifactKey: Guid(ca5095fa3cf3de84ca69d24753fb2592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Backpack_01.prefab using Guid(ca5095fa3cf3de84ca69d24753fb2592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bf0de970c6337f632e96ff41d40316') in 0.022940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Backpack_02.prefab
+  artifactKey: Guid(72cc3eeb77717f0469bf390a3ba79915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Backpack_02.prefab using Guid(72cc3eeb77717f0469bf390a3ba79915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a47a6afa9e09eb7e57b500d1720200c') in 0.029859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.513902 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Fishing_Hand_Reel_01.prefab
+  artifactKey: Guid(6100c8e97c5fd2341ae157d522b2f2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Fishing_Hand_Reel_01.prefab using Guid(6100c8e97c5fd2341ae157d522b2f2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8d3c3392628fefdc773d6e533d2ad8') in 0.019590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Fishing_Rod_02.prefab
+  artifactKey: Guid(ae48f7fccf7931849a42aa86d14560a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Fishing_Rod_02.prefab using Guid(ae48f7fccf7931849a42aa86d14560a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a1699186d65a6bec85af3d8dc4caab') in 0.021394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Fishing_Rod_Rack_01.prefab
+  artifactKey: Guid(35c3cb746f92e7b4287ec92d2f922a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Fishing_Rod_Rack_01.prefab using Guid(35c3cb746f92e7b4287ec92d2f922a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc27d72eee024febbeab824702430ffe') in 0.019720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Fishing_Rod_Rack_Preset_02.prefab
+  artifactKey: Guid(053f89f2d554e1044926dccd68cf39fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Prefabs/Shops/Props/SM_Prop_Hunting_Fishing_Rod_Rack_Preset_02.prefab using Guid(053f89f2d554e1044926dccd68cf39fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b575239827409c4eb25797550612bef1') in 0.025515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
